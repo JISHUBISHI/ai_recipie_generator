@@ -6,3 +6,4 @@ google-generativeai
 langchain
 transformers 
 sentence-transformers
+langchain-community
