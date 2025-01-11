@@ -22,7 +22,7 @@ faiss_index = FAISS.load_local(
 
 def get_conversational_chain():
     prompt_template = """
-    use the given recipie information and provide the user answers.
+    use the given recipe information and provide the user answers.
     If you don't know the answer, just say that you don't know, don't try to make up an answer.
 
     Context: {context}
@@ -47,9 +47,9 @@ def user_input(user_question):
     return response["output_text"]
 
 
-st.title("Recipie Bot")
+st.title("Recipe Bot")
 
-st.subheader("Chat with the Recipie BOT")
+st.subheader("Chat with the Recipe BOT")
 user_message = st.text_input("Type your message here:")
 
 if user_message:
