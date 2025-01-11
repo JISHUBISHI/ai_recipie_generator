@@ -3,4 +3,6 @@ faiss-cpu
 langchain-google-genai
 dotenv
 google-generativeai
-huggingface-hub
+langchain
+transformers 
+sentence-transformers
