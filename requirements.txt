@@ -1,0 +1,16 @@
+streamlit
+langchain
+langchain-google-genai
+google-generativeai
+python-dotenv
+google-generativeai
+PyPDF2
+chromadb
+faiss-cpu
+langchain_communit
+langchain
+faiss-cpu
+langchain-google-genai
+dotenv
+google-generativeai
+huggingface-hub
