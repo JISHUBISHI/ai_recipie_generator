@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 from google.generativeai import configure
 
 load_dotenv()
-
 api_key = os.getenv("GOOGLE_API_KEY")
 
 def configure_genai():
