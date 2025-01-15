@@ -1,7 +1,6 @@
 import os
 import streamlit as st
 from langchain.prompts import PromptTemplate
-from langchain_community.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.schema import Document
