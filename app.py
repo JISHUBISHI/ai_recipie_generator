@@ -37,7 +37,7 @@ def user_input(user_question):
     response = chain({"input_documents": dummy_context, "question": user_question}, return_only_outputs=True)
     return response["output_text"]
 
-st.title("Recipe Bot")
+st.title("Sumir Rannaghar 2.0")
 st.subheader("Chat with the Recipe BOT")
 user_message = st.text_input("Type your message here:")
 
