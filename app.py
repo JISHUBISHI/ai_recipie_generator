@@ -7,7 +7,7 @@ from langchain.schema import Document
 from google.generativeai import configure
 
 
-api_key = "AIzaSyADRBsFLWfQVhRZg19MpbJI0NdfkV3eISo"
+api_key = "AIzaSyC8GwlU4BL4cc0TyWtidoXz9g18NJJB7Tk"
 
 def configure_genai():
     configure(api_key=api_key)
