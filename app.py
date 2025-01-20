@@ -4,11 +4,10 @@ from langchain.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.schema import Document
-from dotenv import load_dotenv
 from google.generativeai import configure
 
-load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
+
+api_key = "AIzaSyADRBsFLWfQVhRZg19MpbJI0NdfkV3eISo"
 
 def configure_genai():
     configure(api_key=api_key)

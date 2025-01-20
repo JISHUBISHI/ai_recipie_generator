@@ -1,7 +1,6 @@
 langchain
 faiss-cpu
 langchain-google-genai
-dotenv-python
 google-generativeai
 langchain
 transformers 
