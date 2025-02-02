@@ -23,19 +23,14 @@ Sumir Rannaghar 2.0 is an AI-powered recipe assistant that helps users discover 
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repo/sumir-rannaghar.git
+   git clone https:https://github.com/JISHUBISHI/ai_recipie_generator
    cd sumir-rannaghar
    ```
-2. Create a virtual environment (optional but recommended):
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   ```
-3. Install dependencies:
+2. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-4. Set up your Google API key:
+3. Set up your Google API key:
    - Replace the `api_key` in `main.py` with your own Google Gemini API key.
 
 ## Usage
@@ -67,7 +62,6 @@ api_key = os.getenv("GOOGLE_API_KEY")
 - "What ingredients do I need for a chocolate cake?"
 - "How do I prepare homemade pasta?"
 
-##
 
 ## Author
 
